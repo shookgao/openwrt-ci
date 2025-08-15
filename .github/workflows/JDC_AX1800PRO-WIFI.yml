@@ -1,4 +1,4 @@
-name: jdc_ax1800pro
+name: JDC_AX1800PRO
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: jdc_ax1800_wifi
+  FIRMWARE_TAG: jdc_ax1800pro-wifi
   TZ: Asia/Shanghai
 
 jobs:
